@@ -11,7 +11,7 @@ exports.postData = async (req, res) => {
   } catch (err) {
     console.log(err);
     res.status(409).json({
-      status: "Failure in  Insertion",
+      status: "Failure in  Insertion.",
     });
   }
 };
