@@ -13,7 +13,7 @@ app.use(cors()); //cors
 const adminRoute = require("./Routes/adminRoute");
 const sellerRoute = require("./Routes/sellerRoute");
 const buyerRoute = require("./Routes/buyerRoute");
-//const entryRoute=require('./Routes/EntryRoutes')
+//const entryRoute=require('./Routes/EntryRoutes ')
 
 console.log(process.env.DATABASE);
 const DB = process.env.DATABASE.replace(

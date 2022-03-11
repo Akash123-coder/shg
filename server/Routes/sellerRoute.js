@@ -3,5 +3,5 @@ const route = express.Router();
 const seller=require("../Controller/sellerController");
 const authM = require("../middleware/auth");
 route.post("/postdata", seller.postData);
-//route.post("/busAdd", authM.auth, bus.busAdd);
+//route.post("/busAdd", authM.auth,s bus.busAdd);
 module.exports = route;

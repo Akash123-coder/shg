@@ -14,25 +14,32 @@ const SellerSchema = new mongoose.Schema({
     required:true
   },
   productdetails:{
-   type:[String],
-   required:true
+   type:[String]
+  },
+  phone:{
+type:String,
+required:true
+  },
+  email:{
+    type:String,
+required:true
+  },
+  certificate:{
+    data:Buffer,
+    contentType:String
   },
   accountno:
   {
-    type:String,
-    required:true
+    type:String
   },
   bankname:{
-    type:String,
-    required:true
+    type:String
   },
   ifsccode:{
-    type:String,
-    required:true
+    type:String
   },
   branch:{
-    type:String,
-    required:true
+    type:String
   }
 });
 
